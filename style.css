@@ -1,0 +1,55 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0 2%;
+}
+
+/* Bootstrap Container */
+.container {
+  margin: 0;
+}
+
+/* Top LOGO */
+.logo {
+  width: 20%;
+  margin: 0;
+}
+.logo-section {
+  width: 60%;
+}
+
+/* Features section  */
+
+.features-section {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+
+.feature {
+  margin: 3%;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1rem;
+}
+
+/* Banner-section */
+.card {
+  text-align: center;
+  margin: 2%;
+}
+
+.image-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
