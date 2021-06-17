@@ -53,3 +53,48 @@ body {
   height: 50%;
   margin: 0 auto;
 }
+
+/* Gallery Section  */
+
+.gallery-section {
+  text-align: center;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+.image-out-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0;
+  /* width: 50%; */
+  text-align: center;
+}
+
+.img-one {
+}
+
+/* Image In Section  */
+.image-in-content {
+  display: grid;
+  grid-template-areas:
+    "img-two img-three"
+    "img-four img-five";
+}
+
+.img-two {
+  grid-area: img-two;
+}
+
+.img-three {
+  grid-area: img-three;
+}
+
+.img-four {
+  grid-area: img-four;
+}
+.img-five {
+  grid-area: img-five;
+}
