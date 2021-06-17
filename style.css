@@ -98,3 +98,19 @@ body {
 .img-five {
   grid-area: img-five;
 }
+
+/* Link Section  */
+.link-section {
+  text-align: center;
+  margin: 10%;
+  display: flex;
+}
+
+.text-section {
+  width: -moz-available;
+}
+
+.cup-img {
+  width: 50%;
+  /* height: 50%; */
+}
