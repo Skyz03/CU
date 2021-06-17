@@ -63,6 +63,7 @@ body {
 .img {
   height: 200px;
   width: 200px;
+  border-radius: 15px;
 }
 
 .image-out-content {
@@ -113,4 +114,28 @@ body {
 .cup-img {
   width: 50%;
   /* height: 50%; */
+}
+
+/* Companies Section  */
+
+.companies {
+  text-align: center;
+}
+
+.company-images {
+  display: flex;
+}
+
+.company-img {
+  height: 200px;
+  width: 200px;
+  margin: 5%;
+  border-radius: 50%;
+}
+
+.cta {
+  background-color: rebeccapurple;
+  color: #fff;
+  display: flex;
+  margin: 5%;
 }
