@@ -20,6 +20,19 @@ body {
   width: 60%;
 }
 
+.navbar-color {
+  color: #fff;
+}
+
+/* Curousel */
+.carousel-title {
+  color: #b6464b;
+}
+
+.corousel-description {
+  color: #b6464b;
+}
+
 /* Features section  */
 
 .features-section {
@@ -31,6 +44,14 @@ body {
 .feature {
   margin: 3%;
   text-align: center;
+}
+
+.delivery-icon {
+  width: 70%;
+}
+
+.features-logo {
+  max-width: 25%;
 }
 
 .feature-title {
